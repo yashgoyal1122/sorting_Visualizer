@@ -94,7 +94,7 @@ body h1{
   }
 
   #func button{
-    font-size: 2vh;
+    font-size: 5vw;
     height: 8vw;
     width: 20vw;
     border-radius: 10px;
@@ -105,17 +105,4 @@ body h1{
     background-color: #1976d2;
     color: white;
   }
-}
-@media screen and (min-width:500) and (max-width:800) {
-  #container {
-    margin: 10px;
-    background-color: #bbdefb;
-    padding: 2px 20px;
-    border: 1px solid #e3f2fd;
-    border-radius: 20px;
-    height: 80vh;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
 }
