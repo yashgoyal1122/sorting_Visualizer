@@ -47,9 +47,10 @@ body h1{
   bottom: 0;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500) {
 
   *{
+    overflow: hidden;
     margin: 0;
     padding:0;
     border: 0;
@@ -118,4 +119,65 @@ body h1{
     align-items: flex-end;
     justify-content: center;
 }
+}
+@media only screen and (max-width: 1081px) {
+
+  *{
+    overflow: hidden;
+    margin: 0;
+    padding:0;
+    border: 0;
+  }
+
+  body{
+    background-color: #90caf9;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  body h1{
+    margin-top: 8vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 8vw;
+    color: #1976d2;
+  }
+  #container{
+    overflow: hidden;
+    margin: 10vh 4vw;
+    width: 80vw;
+    background-color: #bbdefb;
+    padding: 1px 3px;
+    border: 1px solid #e3f2fd;
+    border-radius: 5px;
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .bar{
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 5vw;
+    background-color: #2196f3;
+    margin: 1px;
+  }
+
+  #func button{
+    font-size: 2vh;
+    height: 8vw;
+    width: 20vw;
+    border-radius: 25px;
+    margin: 0 70px;
+  }
+  
+  #func button:hover{
+    position: relative;
+    background-color: #1976d2;
+    color: white;
+  }
 }
